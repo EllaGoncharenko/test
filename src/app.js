@@ -1,2 +1,3 @@
-import './js/rainbows.js'
-import './js/unicorns.js'
+import './js/rainbows';
+import './js/unicorns';
+import './js/constant';
