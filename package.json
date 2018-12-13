@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testProject",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "serv": "static build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EllaGoncharenko/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EllaGoncharenko/test/issues"
+  },
+  "homepage": "https://github.com/EllaGoncharenko/test#readme"
+}
