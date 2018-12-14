@@ -1,0 +1,26 @@
+body {
+  background-color: pink ;
+};
+
+@font-size:40px;
+
+.b-test {
+  margin-top: 50px;
+  padding: 30px;
+  background: #fff;
+
+  &_heading {
+    font-size: @font-size;
+    color: aqua;
+
+    & > div {
+      width: 120px;
+      height: 50px;
+      font-size: 15px;
+      padding-left: 5px;
+      line-height: 50px;
+      color: black;
+      background-color: yellowgreen;
+    }
+  }
+};
