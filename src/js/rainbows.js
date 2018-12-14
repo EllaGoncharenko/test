@@ -1,5 +1,5 @@
 const $ = require('jquery');
-// const str = require("./constant");
+
 
 function show() {
   const str = 'Hello, Ella';

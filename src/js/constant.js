@@ -6,7 +6,7 @@ const a = 'Hello, Ella';
 const b = 'Hello, Baby';
 
 function hello() {
-  return a + b;
+  return (`${a} ${b}`);
 }
 hello();
 
